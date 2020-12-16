@@ -1,0 +1,27 @@
+td {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.removed {
+    background-color: red !important;
+}
+
+.removed:hover {
+    background-color: red;
+    cursor: default !important;
+}
+
+.playable {
+    background-color: green;
+}
+
+.playable:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.player {
+    background-color: black !important;
+}
